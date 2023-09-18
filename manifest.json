@@ -1,0 +1,27 @@
+{
+    "app": "ch.inasoft.sql4automation",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "SQL4AUTOMATION",
+    "author": "Inasoft Systems GmbH",
+    "image": "flecs.azurecr.io/ch.inasoft.sql4automation",
+    "description": "Connect your device with SQL DB",
+    "avatar": "https://www.sql4automation.com/img/favicons/open-graph.png?v=1516616065075",
+    "category": "database",
+    "multiInstance": false,
+    "editor": "",
+    "args": [],
+    "capabilities": [],
+    "conffiles": [],
+    "devices": [],
+    "env": [],
+    "interactive": true,
+    "ports": [
+        "5891-5893",
+        "11001-11010"
+    ],
+    "startupOptions": [],
+    "volumes": [
+        "s4a:/var/log/SQL4automation"
+    ]
+}
