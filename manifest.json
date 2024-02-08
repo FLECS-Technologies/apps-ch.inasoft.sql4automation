@@ -11,6 +11,7 @@
     "conffiles": [],
     "devices": [],
     "env": [],
+    "hostname": "flecs-s4a",
     "interactive": true,
     "ports": [
         "5891-5893",
@@ -18,6 +19,8 @@
     ],
     "startupOptions": [],
     "volumes": [
-        "s4a:/var/log/SQL4automation"
+        "s4a_SQL4automation:/var/log/SQL4automation",
+        "s4a_odbc:/etc/odbc",
+        "s4a_hasplm:/root/.hasplm"
     ]
 }
