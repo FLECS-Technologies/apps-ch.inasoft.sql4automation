@@ -12,7 +12,6 @@
     "conffiles": [],
     "devices": [],
     "env": [],
-    "hostname": "flecs-s4a",
     "interactive": true,
     "ports": [
         "5891-5893",
