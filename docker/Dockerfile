@@ -6,10 +6,3 @@ ARG VERSION
 ARG VARIANT
 
 FROM inasoft/s4a:${VERSION}
-
-ARG ARCH
-ARG VERSION
-ARG VARIANT
-
-RUN [ ! -z "${ARCH}" ]
-RUN [ ! -z "${VERSION}" ]
